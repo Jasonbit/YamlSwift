@@ -4,22 +4,15 @@ Load [YAML](http://yaml.org) and [JSON](http://json.org) documents using [Swift]
 
 `YamlSwift` parses a string of YAML document(s) (or a JSON document) and returns a `Yaml` enum value representing that string.
 
-
+`YamlSwift` is based off of https://github.com/behrang/YamlSwift and I have taken his code and just packageitized it for the new Swift package manager. This includes stripping off all the XCode requirements. Test updates forthcoming.
 
 
 
 ## Install
 
-Use [Carthage](https://github.com/Carthage/Carthage) to build and install.
-
-Or use [CocoaPods](https://cocoapods.org/) :
-Add `pod 'YamlSwift'` to your `Podfile` and run `pod install`.
 
 
 ## API
-
-
-
 
 
 ### import
