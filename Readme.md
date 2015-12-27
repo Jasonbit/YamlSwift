@@ -10,7 +10,15 @@ Load [YAML](http://yaml.org) and [JSON](http://json.org) documents using [Swift]
 
 ## Install
 
+`swift build`
 
+To include as a dependency in swift package:
+
+```
+    dependencies: [
+        .Package(url: "https://github.com/Jasonbit/YamlSwift.git", majorVersion: 0, minor: 1)
+      ]
+```
 
 ## API
 
